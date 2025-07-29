@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome back"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#555"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:id="@+id/imageViewPhoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Employee Photo" />
+
+        <TextView
+            android:id="@+id/textViewSales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="26sp"
+            android:textColor="#FF8800"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonTransactions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transactions"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#7B52AB"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/buttonTransactionDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction Details"
+            android:backgroundTint="#7B52AB"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/buttonAwardDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Award Details"
+            android:backgroundTint="#7B52AB"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/buttonTransfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transfer"
+            android:backgroundTint="#7B52AB"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:backgroundTint="#7B52AB"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_button" />
+
+    </LinearLayout>
+</ScrollView>
