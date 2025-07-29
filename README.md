@@ -1,7 +1,9 @@
 Project Title
+
 SleepyHollow: Employee Recognition System — Server-side and Android Client Application
 
 Project Overview:
+
 SleepyHollow is a full-stack enterprise database application designed to manage an employee recognition program. The system includes server-side business logic implemented in Java (Servlet and JSP) and a native Android client app that interacts seamlessly with the backend services. This project demonstrates the design and development of a 3-tier architecture connecting a database, a server, and a mobile client.
 
 Key Features:
